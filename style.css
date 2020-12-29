@@ -18,14 +18,16 @@
     left:50% ;   
     display: flex;
     flex-direction: column;
-    background-color: rgb(90, 19, 19);
-    height: max-content;
-    height: min-content;
+    background-color: rgb(105, 70, 50);
+    height: fit-content;
     justify-content: space-between;
     border:2px rgb(85, 168, 179);
     border-radius: 10px;
-
+    background-image: url("https://media.istockphoto.com/photos/library-picture-id1028739954?k=6&m=1028739954&s=612x612&w=0&h=rCJgAeeLo3BYYz7Jyr_2D0ywSMmkTCwIEmM7nfXRe4w=");
     box-shadow: 2px black;
+    padding: 10px 10px 10px 10px;
+    background-size: 100%;
+    
 
 }
 .button {     
@@ -34,10 +36,10 @@
     border: none;
     cursor:pointer;
     overflow: hidden;  
-    height: 60%; 
-    width: 30%; 
-    margin: 5px 10px 5px 10px;
-    color:white;
+    height: auto; 
+    width: auto; 
+    margin: 5px 0px 5px 0px;
+    color:black;
     font-weight: bolder;
 }
 input{
@@ -60,4 +62,18 @@ li{
     list-style-type: disc;
     list-style-type: initial;
     margin:10px;
+    background-image: url("https://wallpapercave.com/wp/wp3080772.jpg");
+    background-size: 100%;
+    width:auto ;
+
+    
+}
+img{
+    z-index: -1;
+}
+ul{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    
 }
