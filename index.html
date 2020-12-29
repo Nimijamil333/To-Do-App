@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+</head>
+
+<body>
+    <!-- <img src="1.jpg" alt="backgroundimg" height="100%" width="100%"> -->
+    <CENTER>
+        <div id="main">
+            <div class="elements">
+                <input type="text" id="todo-item" placeholder="  Enter your To-Do here  " >
+                <button class="button btn-group btn btn-info" onclick="additem()"> ADD TO-DO  </button>
+                <button  class="button btn-group btn btn-info" onclick="delall()"> CLEAR ALL </button>
+            
+            </div>
+            <div>
+                <UL id="list">
+
+                </UL>
+            </div>
+        </div>
+    </CENTER>
+    <script src="app.js"></script>
+</body>
+
+</html>
